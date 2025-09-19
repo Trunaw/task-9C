@@ -12,14 +12,5 @@ function Dashboard() {
     </div>
   );
 }
-function Dashboard() {
-  const user = localStorage.getItem("user");
 
-  return (
-    <div>
-      <h2>Welcome, {user}</h2>
-      <LogoutButton />
-    </div>
-  );
-}
 export default Dashboard;
